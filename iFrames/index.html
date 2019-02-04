@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>uso de iFrames</title>
+  </head>
+    <body>
+        <h1>ejemplos de iframes y atributos</h1>
+        <h2>Ejemplo basico de iFrame</h2>
+        <iframe src="https://www.nextuniversity.com/" width="300px" height="300px" name="iFrame NextU">No se puede cargar el iFrame</iframe>
+
+        <h3>allow-forms: permite que se envien formularios con informacion</h3>
+        <iframe src="http://popuptest.com/" width="300px" height="300px" sandbox="allow-forms"></iframe>
+
+        <h3>allow-popups: si el iFrame tiene ventanas emergentes, este lo permitira</h3>
+        <iframe src="http://popuptest.com/" width="300px" height="300px" sandbox="allow-popups" name="iFrame popups"></iframe>
+
+        <h3>allow scripts, permite que del lado del cliente, se ejecuten codigos javascripts</h3>
+        <iframe src="https://www.uv.es/jac/guia/jscript/javascr.htm" width="300px" height="300px" sandbox="allow-scripts" name="iFrame script"></iframe>
+
+        <h3>allow top navigation: permite que la informacion en el iFrame, sustituya la de nosotros, propuesta por el contenido del enlace</h3>
+        <iframe src="https://www.nextu.com/" srcdoc="" width="300px" height="300px" sandbox="allow-top-navigation" name="iFrame topNavigation"></iframe>
+  </body>
+</html>

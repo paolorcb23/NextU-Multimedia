@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Etiquetas para Audio y Video</title>
+  </head>
+  <body>
+       <h2>Atributo AUTOPLAY</h2>
+       <p>Reporduce el audio o video apenas se abre la web, sin necesidad de dar clic en PLAY</p>
+       <audio src="C:\NextUMultimedia\Audio\Kid Cud.mp3" controls autoplay></audio>
+
+       <h2>Atributo LOOP</h2>
+       <p>Atributo que se encarga de reproducir el audio, cuando TERMINE</p>
+       <audio src="C:\NextUMultimedia\Audio\MR Benz.mp3" controls loop></audio>
+
+       <h2>Atributo PRELOAD</h2>
+       <p>este tiene un comportamiento especial. Cuando trabajamos con archivos muy pesados el sitio web se pone lento y demora, este atributo los almacena en una memoria temporal despues de ser cargados la primera vez, depende del valor que se le especifique</p>
+       <ul>
+          <li>none: No almacenar nuestros archivos</li>
+          <audio src="C:\NextUMultimedia\Audio\Kid Cud.mp3" controls preload="none"></audio>
+          <li>auto: Almacena temporalemente el archivo multimedia.</li>
+          <audio src="C:\NextUMultimedia\Audio\MR Benz.mp3" controls preload="auto"></audio>
+      </ul>
+  </body>
+</html>

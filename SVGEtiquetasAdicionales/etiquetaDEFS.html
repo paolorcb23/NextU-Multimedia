@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Etiqueta DEFS</title>
+  </head>
+  <body>
+       <h2>Este define codigos que despues se puede reutilizar en otro espacio de trabajo<h2>
+
+       <svg width="1200px" height="1200px" viewbox="0 0 1200 1200">
+          <defs>
+             <linearGradient id="Gradiente1">
+               <stop offset="20%" stop-color="#39f"/>
+               <stop offset="90%" stop-color="#f3f"/>
+             </linearGradient>
+          </defs>
+
+          <rect x="100" y="100" width="250px" height="400px"
+              fill="url(#Gradiente1)" />
+      </svg>
+  </body>
+</html>
